@@ -36,7 +36,5 @@ function showUser(response) {
   email.innerHTML = `Email: ${response.data[0].email}`;
   lastName.innerHTML = `Last name: ${response.data[0].last_name}`;
   firstName.innerHTML = `First name: ${response.data[0].first_name}`;
-
-  console.log(response.data);
 }
 axios.get(url).then(createUser);
