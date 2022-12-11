@@ -4,10 +4,15 @@ body {
   font-family: "PT Serif", serif;
 }
 
+caption {
+  color: black;
+}
+
 small {
   padding: 10px;
   margin: 0 auto;
 }
+
 small a {
   color: white;
 }
