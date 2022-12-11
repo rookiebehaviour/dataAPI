@@ -12,7 +12,6 @@ small a {
   color: white;
 }
 .container-flex {
-  vertical-align: middle;
   display: flex;
   flex-direction: column;
   background: rgba(0, 0, 0, 0.8);
