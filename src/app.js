@@ -6,7 +6,6 @@ function createUser(response) {
   let userHTML = `<tr>`;
 
   users.forEach(function (users, index) {
-    console.log(users, index);
     if (index < 10) {
       userHTML =
         userHTML +
